@@ -1,0 +1,26 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.sec1{
+    display: flex;
+}
+.img1{
+    height: 700px;
+    width: 600px;
+    margin-right: 200px;
+}
+.sec1div1{
+    width: 70%;
+    margin-left: 200px;
+    padding-top: 100px;
+    
+}
+#head1{
+    font-size: 50px;
+}
+.btn{
+    background-color: rgb(158, 255, 47);
+    height: 50px;
+    width: 120px;
+    border-radius: 15px;
+}
