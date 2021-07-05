@@ -1,5 +1,6 @@
 body{
     font-family: 'Ubuntu', sans-serif;
+    border: 0;
 }
 .flex1{
     display: flex;
@@ -13,13 +14,14 @@ body{
     width: 70%;
     margin-left: 200px;
     padding-top: 100px;
+    padding-bottom: 100px;
     
 }
 #head1{
     font-size: 50px;
 }
 .btn{
-    background-color: rgb(158, 255, 47);
+    background-color: rgb(51, 201, 247);
     height: 50px;
     width: 120px;
     border-radius: 15px;
@@ -32,6 +34,7 @@ body{
 .selfdiv1{
     margin-left: 200px;
     width: 50%;
+    padding: 100px 30px 100px 30px;
 }
 .recipie{
     
@@ -44,8 +47,8 @@ body{
     
     background-color: white;
     border-radius: 15px;
-    box-shadow: 5px 5px 20px grey;
-    padding: 20px 0px 70px 20px;
+    box-shadow: 5px 5px 20px rgb(51, 201, 247);
+    padding: 40px 0px 70px 40px;
 }
 .recipi-image{
     height: 200px;
@@ -59,9 +62,15 @@ body{
     margin: 100px 200px 100px 200px;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px grey;
+    box-shadow: 0px 0px 20px rgb(51, 201, 247);
 }
 .score-half-width{
     width: 33%;
     text-align: center;
+}
+.last-sec{
+    text-align: center;
+    background-color: black;
+    color: grey;
+    padding: 50px;
 }
