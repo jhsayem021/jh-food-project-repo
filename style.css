@@ -9,7 +9,7 @@ body{
     width: 600px;
     margin-right: 200px;
 }
-.sec1div1{
+.skipdiv1{
     width: 70%;
     margin-left: 200px;
     padding-top: 100px;
@@ -23,4 +23,12 @@ body{
     height: 50px;
     width: 120px;
     border-radius: 15px;
+}
+.banner{
+    background-image: url(image/Frame\ 57.jpg);
+     
+}
+.selfdiv1{
+    margin-left: 200px;
+    width: 50%;
 }
