@@ -1,70 +1,114 @@
 body{
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
 }
+
+#head-div{
+    background-image: linear-gradient(rgb(0, 174, 255),rgb(0, 174, 255));
+    display: flex;
+}
+
+.head-div1{
+    width: 50%;
+}
+
+.head-link-pos{
+    padding-top: 55px;
+    padding-left: 600px;
+}
+
+.lnk:link, .lnk:visited {
+    font-size: 20px;
+    background-color: #f44336;
+    color: rgb(252, 252, 253);
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.lnk:hover, .lnk:active {
+    background-color: rgb(5, 26, 56);
+    color: white;
+}
+
+#big-head{
+      padding-left: 200px;
+      font-size: 40px;
+}
+
 .flex1{
     display: flex;
 }
+
 .img1{
     height: 700px;
     width: 600px;
     margin-right: 200px;
 }
+
 .skipdiv1{
     width: 70%;
     margin-left: 200px;
     padding-top: 100px;
     padding-bottom: 100px;
-    
 }
+
 #head1{
     font-size: 50px;
 }
+
 h2{
     font-size: 40px;
 }
+
 .btn{
-    background-color: rgb(51, 201, 247);
+    background-image: linear-gradient(rgb(160, 204, 255) ,rgba(240, 211, 237, 0.945));
     height: 50px;
     width: 120px;
     border-radius: 15px;
-    box-shadow: 0px 0px 50px rgb(51, 201, 247);
+    box-shadow: 0px 0px 20px rgb(51, 201, 247);
     margin-top: 40px;
 }
+
 .banner{
     background-image: url(image/Frame\ 57.jpg);
-     
 }
+
 .selfdiv1{
     margin-left: 200px;
     width: 50%;
     padding: 100px 30px 100px 30px;
     text-align: justify;
 }
+
 .recipie{
     
     padding: 70px 400px 50px 400px ;
     text-align: center;
 }
+
 .half-width{
     width: 33%;
     margin: 10px 70px 0px 70px;
-    
     background-color: white;
     border-radius: 15px;
     box-shadow: 5px 5px 20px rgb(51, 201, 247);
     padding: 40px 0px 70px 40px;
     
 }
+
 .recipi-image{
     height: 200px;
     width: 300px;
     border-radius: 15px;
 }
+
 .item-p {
  margin-right: 10px;   
 }
+
 .score-div{
-    
     display: flex;
     background-color: rgb(255, 255, 255);
     margin: 100px 200px 100px 200px;
@@ -72,13 +116,15 @@ h2{
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgb(51, 201, 247);
 }
+
 .score-half-width{
     width: 33%;
     text-align: center;
 }
+
 .last-sec{
     text-align: center;
     background-color: black;
     color: grey;
-    padding: 50px;
+    padding: 40px;
 }
